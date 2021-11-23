@@ -13,12 +13,13 @@ module.exports = {
     themeConfig: {
       nav:[ // 导航栏配置
         {text: '首页', link: '/' },
-        {text: '前端', link: '/interface' },
-        {text: '后端', link: '/date'},
+        {text: '笔记', link: '/note' },
+        {text: '技能点', link: '/skils' },
+        {text: '项目', link: '/project'},
         {text: '关于', link: '/about'} ,
         {text: 'Github', link: 'https://github.com/HCT0'}  ,    
       ],
-      sidebar: 'auto', // 侧边栏配置
-      sidebarDepth: 2, // 侧边栏显示2级
+      // sidebar: 'auto', // 侧边栏配置
+      // sidebarDepth: 2, // 侧边栏显示2级
     }
   };
